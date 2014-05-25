@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## This function generates the matrix to get retrieved from cache
+## This function generates the matrix to get retrieved from cache.
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -32,4 +32,4 @@ cacheSolve <- function(x, ...) {
     inv <- solve(data, ...)
     x$setsolve(inv)
     inv
-}
+} 
