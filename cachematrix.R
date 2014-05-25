@@ -2,7 +2,6 @@
 ## functions do
 
 ## This function generates the matrix to get retrieved from cache.
-
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
@@ -18,6 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## This function calculates the inverse or get if from cache
+## If exists !null then return previous value else calculate it
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     inv <- x$getsolve()
