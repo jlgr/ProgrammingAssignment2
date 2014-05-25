@@ -1,7 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
 ## This function generates the matrix to get retrieved from cache.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getsolve = getsolve)
 }
 
-
-## Write a short comment describing this function
 ## This function calculates the inverse or get if from cache
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
